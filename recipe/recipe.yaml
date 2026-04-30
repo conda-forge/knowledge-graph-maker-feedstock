@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.11.0.*
+    - python ${{ python_min }}.*
     - poetry-core
     - pip
   run:
